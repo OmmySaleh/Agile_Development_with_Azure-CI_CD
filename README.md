@@ -166,7 +166,8 @@ Port: 443
 {"prediction":[20.35373177134412]}
 Output of streamed log files from deployed application
 
-![Screenshot 2022-08-29 at 23 53 39](https://user-images.githubusercontent.com/110615576/188183427-664aea74-3c26-47c1-a023-263b8849921a.jpg)
+![Screenshot 2022-08-29 at 23 53 39 2](https://user-images.githubusercontent.com/110615576/188183713-bd4495d1-e3d7-4022-ad14-45dded946db4.jpg)
+
 
 Enhancements
 
