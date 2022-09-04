@@ -10,10 +10,10 @@ pool: myAgentPool
 
 variables:
   # TODO: Replace the service connection name
-  azureServiceConnectionId: 'myconn1'
+  azureServiceConnectionId: 'connect'
   
   # TODO: Replace 'mywebapp193576' with the existing Web App name
-  webAppName: 'devopsbyommy'
+  webAppName: 'ommydevops'
 
   # Environment name
   environmentName: 'flask-ml-service'
@@ -50,8 +50,14 @@ stages:
         archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
         replaceExistingArchive: true
 
-    - upload: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
-      displayName: 'Upload package'
+    - upload: $(Build.ArtifactStagingDirectory)/$(Build.Build- task: AzureWebApp@1
+  inputs:
+    azureSubscription: 'connect'
+    appType: 'webAppLinux'
+    appName: 'ommydevops'
+    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    runtimeStack: 'PYTHON|3.7'
+    startUpCommand: 'python app.py'
       artifact: drop
 
 - stage: Deploy
