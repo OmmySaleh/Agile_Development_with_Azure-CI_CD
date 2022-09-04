@@ -50,14 +50,8 @@ stages:
         archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
         replaceExistingArchive: true
 
-    - upload: $(Build.ArtifactStagingDirectory)/$(Build.Build- task: AzureWebApp@1
-  inputs:
-    azureSubscription: 'connect'
-    appType: 'webAppLinux'
-    appName: 'ommydevops'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
-    runtimeStack: 'PYTHON|3.7'
-    startUpCommand: 'python app.py'
+    - upload: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+      displayName: 'Upload package'
       artifact: drop
 
 - stage: Deploy
@@ -76,5 +70,5 @@ stages:
             displayName: 'Deploy Azure Web App : flask-ml-service'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
-              appName: $(webAppName)
+              appName: $(ommydevops)
               package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
