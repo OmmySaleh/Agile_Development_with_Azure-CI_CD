@@ -44,7 +44,7 @@ CI: Set Up Azure Cloud Shell
 
 I first created a GitHub Repo then generated a ssh-keys in my Azure Cloud Shell environment after which i clone the newly created repo into Azure Cloud Shell, screenshot below
 
-![Image 28 08 22 at 19 23](https://user-images.githubusercontent.com/110615576/188169548-83bbdba7-4495-4b38-abd9-db1213bfdc73.JPG)
+![GitHub Cloned](https://user-images.githubusercontent.com/110615576/188479980-f5d07687-cc11-463f-a86f-cfd1a66589ef.png)
 
 ![Screenshot 2022-09-02 at 17 36 48](https://user-images.githubusercontent.com/110615576/188188159-fbfe6c61-4a50-45a4-a00b-4eaabe3a30b0.png)
 
