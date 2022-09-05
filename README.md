@@ -1,7 +1,6 @@
-# MyDevOpsRepo
-This is a repo for devops
-Status
 [![Actions Status](https://github.com/OmmySaleh/MyDevOpsRepo/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)](https://github.com/OmmySaleh/MyDevOpsRepo/actions)
+
+Building CI-CDpipeline- test
 
 This project illustrates on how to build GitHub repository from the very beginning and creating a scaffolding that will assist in performing both Continuous integration and Continuous Delivery. The process followed the pathway below
 
@@ -33,6 +32,12 @@ Below is spreedsheet you will find a quarterly and yearly project plan with an e
 Architectural Diagram (Shows how key parts of the system work)>
 
 ![Screenshot 2022-09-02 at 15 04 38](https://user-images.githubusercontent.com/110615576/188156330-3963226a-997e-4943-bef3-c7e97cf5944e.png)
+
+
+Status
+
+[![Actions Status](https://github.com/OmmySaleh/MyDevOpsRepo/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)](https://github.com/OmmySaleh/MyDevOpsRepo/actions)
+
 
 
 CI: Set Up Azure Cloud Shell
