@@ -14,17 +14,6 @@ variables:
   
   # TODO: Replace 'mywebapp193576' with the existing Web App name
   webAppName: 'ommyproject2'
-- task: AzureWebApp@1
-  inputs:
-    azureSubscription: 'connect'
-    appType: 'webAppLinux'
-    appName: 'ommyproject2'
-    deployToSlotOrASE: true
-    resourceGroupName: 'Azuredevops'
-    slotName: 'production'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
-    runtimeStack: 'PYTHON|3.7'
-    startUpCommand: 'python app.py'
 
   # Environment name
   environmentName: 'flask-ml-service'
