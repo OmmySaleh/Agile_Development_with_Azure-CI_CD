@@ -1,5 +1,7 @@
 # MyDevOpsRepo
 This is a repo for devops
+Status
+[![Actions Status](https://github.com/OmmySaleh/MyDevOpsRepo/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)](https://github.com/OmmySaleh/MyDevOpsRepo/actions)
 
 This project illustrates on how to build GitHub repository from the very beginning and creating a scaffolding that will assist in performing both Continuous integration and Continuous Delivery. The process followed the pathway below
 
