@@ -50,7 +50,7 @@ I first created a GitHub Repo then generated a ssh-keys in my Azure Cloud Shell 
 
 Passing tests that are displayed after running the make all command from the Makefile
 Local test
-(.CI-CDpipeline) lawal@Azure:~/CI-CDpipeline$ make all
+(.myrepo) odl_user [ ~/MyDevOpsRepo ]$ make all
 
 ![Image 28 08 22 at 19 38 2](https://user-images.githubusercontent.com/110615576/188171026-c3432af9-ffcf-442e-bc07-a4d658081a62.jpg)
 
