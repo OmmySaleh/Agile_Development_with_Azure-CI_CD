@@ -123,7 +123,7 @@ Final step in the project is to set Continuous Delivery using Azure technologies
 I deployed the web app to azure using az webapp up -n
 
 
-(.myrepo) odl_user [ ~/MyDevOpsRepo ]$ az webapp up -n ommyproject2
+MY APP SERVICE NAME BE CLEARLY SEEN HERE  (ommyprojrct2) (.myrepo) odl_user [ ~/MyDevOpsRepo ]$ az webapp up -n ommyproject2
 
 
 ![Image 28 08 22 at 23 04](https://user-images.githubusercontent.com/110615576/188177623-9711a029-b8bc-4736-83ac-9c1f5ec0ad8b.jpg)
@@ -151,6 +151,12 @@ Logs of my running webapp via Azure Cloud shell
 
 
 ![locustTest](https://user-images.githubusercontent.com/110615576/188487067-0ae4882b-ece1-4fda-bc0c-2e5f189a2334.png)
+
+
+THE LOCUST WEBSITE IS NOT WORKING ON MY MACHINE I HAVE TRIED ALL BROWSERS BUT THE LOCALHOST REFUSED TO CONNECT THATS WHY I PRESENTED MY TEST RESULTS USING MY CLI SCREENSHOT
+
+![localhost refused to connect](https://user-images.githubusercontent.com/110615576/188555509-b506eb2f-6d91-47e3-aace-ad18dd08872f.png)
+
 
 
 Setting up CI/CD using Azure Pipelines
@@ -217,6 +223,11 @@ Jobs and Azure Web App Service Deployed
 
 
 ![PipeLines](https://user-images.githubusercontent.com/110615576/188491641-882f1d80-2eb0-445a-941e-bd5f5392e33d.png)
+
+
+My Azure App Service
+
+![WebAppRunning](https://user-images.githubusercontent.com/110615576/188555638-25c4862b-8b3e-4798-ac16-2831623ae878.png)
 
 
 
